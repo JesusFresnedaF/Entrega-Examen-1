@@ -10,7 +10,7 @@ git init
 
 ![](init.png)
 
-Después, pasamos el repositorio a la fase de "index" con el comando:
+Después, pasamos el repositorio a la fase de "Staging area" con el comando:
 
 
 ~~~
