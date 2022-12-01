@@ -69,19 +69,13 @@ Esos son los commits que tiene nuestro repositorio actualmente. Para comprobar q
 git checkout *cabecera
 ~~~
 
-Por ejemplo, en el commit "commit 1":
+Por ejemplo, en el commit "segundo commit":
 
 ![](checkout1.png)
 
-En el commit "commit 2":
+En el commit "primer commit":
 
 ![](checkout2.png)
-
-Y en el commit "commit 3"
-
-![](checkout3.png)
-
-Y finalmente para movernos a la posición actual de nuestros commits:
 
 ~~~
 git checkout main
