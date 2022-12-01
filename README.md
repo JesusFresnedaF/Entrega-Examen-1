@@ -84,3 +84,13 @@ git checkout main
 ![](checkoutactual.png)
 
 Y de esta forma podemos navegar entre los distintos commits de nuestro repositorio y ver los datos que había en esos instantes.
+
+## Parte C: Áreas de un repositorio Git:
+
+1. Directorio de un trabajo (Working directory):
+   El directorio de un trabajo es la carpeta donde estamos trabajando y queremos crear el repositorio para subirlo a Github.
+ 
+2. Área de preparación (Staging area):
+   
+3. Repositorio local (Directorio .git):
+   Repositorio local es la fase en la que tenemos nuestro repositorio creado y comentado, pero aún no está listo para pasarlo a repositorio remoto (Github). Para entrar en esta fase, previamente tenemos que haber ejecutado los comandos: "add" y "commit".
