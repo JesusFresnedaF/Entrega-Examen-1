@@ -50,3 +50,14 @@ git push -u origin main
 ![](push.png)
 
 Y con éstos pasos conseguimos subir un repositorio a Github desde Git Bash.
+
+## Parte B: Repetir la tarea 2
+
+Para revisar los commits realizados, utilizaremos los siguientes comandos.
+
+Primero, comprobemos los distintos commits que tenemos en este repositorio: 
+
+~~~
+git log --oneline --all
+~~~
+
