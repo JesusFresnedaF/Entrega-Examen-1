@@ -61,3 +61,32 @@ Primero, comprobemos los distintos commits que tenemos en este repositorio:
 git log --oneline --all
 ~~~
 
+![](oneline.png)
+
+Esos son los commits que tiene nuestro repositorio actualmente. Para comprobar que hay en cada uno:
+
+~~~
+git checkout *cabecera
+~~~
+
+Por ejemplo, en el commit "commit 1":
+
+![](checkout1.png)
+
+En el commit "commit 2":
+
+![](checkout2.png)
+
+Y en el commit "commit 3"
+
+![](checkout3.png)
+
+Y finalmente para movernos a la posición actual de nuestros commits:
+
+~~~
+git checkout main
+~~~
+
+![](checkoutactual.png)
+
+Y de esta forma podemos navegar entre los distintos commits de nuestro repositorio y ver los datos que había en esos instantes.
