@@ -23,5 +23,30 @@ O
 git add fichero.archivo
 ~~~
 
+![](add.png)
 
+A continuación, para poner nuestro repositorio en la fase de "local repository" debemos ejecutar el comando commit:
 
+~~~
+git commit -m "commit"
+~~~
+![](commit.png)
+
+En este momento, nuestro repositorio está en fase de "local repository".
+
+Finalmente, para pasar de local repository a remote repository:
+
+~~~
+git branch -M main
+git remote add origin "enlace repositorio github"
+~~~
+
+![](origin-main.png)
+
+~~~
+git push -u origin main
+~~~
+
+![](push.png)
+
+Y con éstos pasos conseguimos subir un repositorio a Github desde Git Bash.
